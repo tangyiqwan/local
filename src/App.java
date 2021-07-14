@@ -23,7 +23,7 @@ public class App {
         
         switch (a) {
             case 1: b = 1; break;
-            case 5: b = 5; break;
+            case 5: b = 5; break;   // need a break, otherwise everything will be executed
             default: b = 0;
 
         }

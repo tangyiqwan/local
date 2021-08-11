@@ -1,5 +1,7 @@
 import java.lang.Math;
-public class App {
+import java.util.Random;
+import java.util.Scanner;
+public class basics {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         
@@ -28,5 +30,21 @@ public class App {
 
         }
         System.out.println("b is " + b);
+
+        for (int i = 0; i < 5; i += 2) {
+            System.out.println(i);
+        }
+        
+        System.out.print("Please enter a number: ");    // take input
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        System.out.println(num1);  
+
+        Random random = new Random();
+        int num2 = random.nextInt(10);
+
+        System.out.println(num2);
+
+
     }
 }
